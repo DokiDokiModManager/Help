@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{page.title}} &bull; {{site.site_title}}</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="/">{{site.site_title}}</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <nav class="nav nav-pills flex-column">
+                    {% for page in site.pages %}
+                    <a href="{{ page.url }}" class="nav-link">{{ page.name }}</a>
+                </nav>
+            </div>
+            <div class="col-md-9">
+                <h1>{{page.title}}</h1>
+
+                <section>{{content}}</section>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
