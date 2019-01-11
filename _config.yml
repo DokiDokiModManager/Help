@@ -7,3 +7,8 @@ navigation:
       -
         title: Home
         link: /
+  - name: User Guide
+    links:
+      -
+        title: Download and Setup
+        link: /user-guide/setup

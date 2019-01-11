@@ -10,6 +10,13 @@
         body {
             padding-top: 70px;
         }
+
+        .navheader {
+            text-transform: uppercase;
+            padding: 0.25em;
+            font-weight: 600;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -22,7 +29,7 @@
             <div class="col-md-3">
                 <nav class="nav nav-pills flex-column">
                     {% for section in site.navigation %}
-                    <a class="nav-link disabled">{{ section.name }}</a>
+                    <a class="nav-link disabled navheader">{{ section.name }}</a>
                     {% for page in section.links %}
                     <a class="nav-link" href="{{page.link}}">{{ page.title }}</a>
                     {% endfor %}
