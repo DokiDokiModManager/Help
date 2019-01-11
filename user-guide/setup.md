@@ -10,7 +10,7 @@ Visit [the DDMM homepage](https://doki.space) and download the latest version fo
 
 Once your download is done, open it from your file manager (you may need to use the terminal on Linux). Say yes to any prompts you may receive
 
-**Windows may warn you that DDMM is not commonly downloaded and may be unsafe. This is a false positive - choose "Run Anyway".**
+**Windows may warn you that DDMM is not commonly downloaded and may be unsafe. This is a false positive - choose "More Info" then "Run Anyway".**
 
 Installation will take about a minute. After this, Doki Doki Mod Manager will appear in your programs menu, and the app will start for the first time.
 
