@@ -1,1 +1,9 @@
 site_title: DDMM Help
+
+navigation:
+  -
+    name: Welcome
+    links:
+      -
+        title: Home
+        link: /
