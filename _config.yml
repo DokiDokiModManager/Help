@@ -12,3 +12,11 @@ navigation:
       -
         title: Download and Setup
         link: /user-guide/setup
+  - name: Links
+    links:
+      -
+        title: Main Site
+        link: https://doki.space
+      -
+        title: Discord
+        link: https://doki.space/discord
