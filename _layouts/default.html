@@ -37,7 +37,7 @@
                     {% for section in site.navigation %}
                     <a class="nav-link disabled navheader">{{ section.name }}</a>
                     {% for link in section.links %}
-                    <a class="nav-link {% if page.url == link.link  %}" href="{{link.link}}">{{ link.title }}</a>
+                    <a class="nav-link {% if page.url == link.link  %}active{% endif %}" href="{{link.link}}">{{ link.title }}</a>
                     {% endfor %}
                     {% endfor %}
                 </nav>
