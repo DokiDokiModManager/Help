@@ -36,8 +36,8 @@
                 <nav class="nav nav-pills flex-column">
                     {% for section in site.navigation %}
                     <a class="nav-link disabled navheader">{{ section.name }}</a>
-                    {% for page in section.links %}
-                    <a class="nav-link" href="{{page.link}}">{{ page.title }}</a>
+                    {% for link in section.links %}
+                    <a class="nav-link {% if page.url == link.link  %}" href="{{link.link}}">{{ link.title }}</a>
                     {% endfor %}
                     {% endfor %}
                 </nav>

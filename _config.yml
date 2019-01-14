@@ -11,10 +11,10 @@ navigation:
     links:
       -
         title: Download and Setup
-        link: /user-guide/setup
+        link: /user-guide/setup.html
       -
         title: Installing DDLC
-        link: /user-guide/install-ddlc
+        link: /user-guide/install-ddlc.html
   - name: Links
     links:
       -
