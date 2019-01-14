@@ -14,7 +14,7 @@ After you've entered a name, a folder name will be automatically generated, but 
 
 ## Installing a Mod
 
-**If you want to play vanilla (not modded) DDLC, you can skip this section.** 
+**If you want to play vanilla (not modded) DDLC, you can [skip this section](#global-save).** 
 
 (image here)
 
