@@ -6,13 +6,17 @@ Doki Doki Mod Manager is an application that runs on your computer, so you need 
 
 ## Download
 
-Visit [the DDMM homepage](https://doki.space) and download the latest version for your type of computer. On Windows, your download will be in the form of a `.exe` file, whereas it will be a `.AppImage` on Linux.
+Visit [the DDMM homepage](https://doki.space) and download the latest version for your type of computer. This will be:
 
-Once your download is done, open it from your file manager (you may need to use the terminal on Linux). Say yes to any prompts you may receive.
+* Windows - `.exe`
+* macOS - `.dmg`
+* Linux - `.AppImage`
+
+Once your download is done, open it from your file manager (you may need to use the terminal on Linux). On macOS, you will need to drag DDMM into your Applications folder, then launch it yourself.
 
 **Windows may warn you that DDMM is not commonly downloaded and may be unsafe. This is a false positive - choose "More Info" then "Run Anyway".**
 
-Installation will take about a minute. After this, Doki Doki Mod Manager will appear in your programs menu, and the app will start for the first time.
+**Similarly, macOS will warn you that DDMM is not made by a trusted developer and refuse to launch. You can override this by visiting System Prefences then Security and Privacy.**
 
 ## Setup
 
