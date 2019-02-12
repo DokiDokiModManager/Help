@@ -24,7 +24,7 @@ Doki Doki Mod Manager will prompt you to either download or find a copy of Doki 
 
 If you've played DDLC through Steam, or have never played the game before, click "Download" to start downloading a copy of the game. This will take a couple of minutes to half an hour, depending on your internet connection. 
 
-![](../images/first_time_setup.png)
+![Image of the first time setup process](../images/user_guide/first_time_setup.png)
 
 ## Play
 
