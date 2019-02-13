@@ -1,25 +1,22 @@
 site_title: DDMM Help
 
 navigation:
-  -
-    name: Welcome
+  - name: Welcome
     links:
-      -
-        title: Home
+      - title: Home
         link: /
   - name: User Guide
     links:
-      -
-        title: Download and Setup
+      - title: Download and Setup
         link: /user-guide/setup.html
-      -
-        title: Installing DDLC
+      - title: Installing DDLC
         link: /user-guide/install-ddlc.html
+  - name: API Tutorial
+    links:
+      - title:
   - name: Links
     links:
-      -
-        title: Main Site
+      - title: Main Site
         link: https://doki.space
-      -
-        title: Discord
+      - title: Discord
         link: https://doki.space/discord
