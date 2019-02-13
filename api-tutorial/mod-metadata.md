@@ -33,5 +33,5 @@ with a backslash (e.g. `The character called \"Monika\"`)
     
 ## Integrating into your build process
 
-If you want use the DDLC Mod Template, download the [latest development build](https://github.com/Monika-After-Story/DDLCModTemplate/archive/master.zip).
+If you want to use the DDLC Mod Template, download the [latest development build](https://github.com/Monika-After-Story/DDLCModTemplate/archive/master.zip).
 This way, when you choose the _Create Distributions_ option in Ren'Py, the `ddmm-mod.json` file will be included in the build. 
