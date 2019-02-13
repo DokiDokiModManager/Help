@@ -13,7 +13,8 @@ navigation:
         link: /user-guide/install-ddlc.html
   - name: API Tutorial
     links:
-      - title:
+      - title: Mod Metadata
+        link: /api-tutorial/mod-metadata.html
   - name: Links
     links:
       - title: Main Site
