@@ -2,6 +2,8 @@
 title: Home
 ---
 
+**Please note that this documentation is still a work in progress**
+
 Welcome to the official help site for Doki Doki Mod Manager.
 
 Want to get started with modding your game? Check the **User Guide**.
