@@ -31,6 +31,16 @@ with a backslash (e.g. `The character called \"Monika\"`)
         "sayonika_id": "12345"
     } 
     
+## Fields
+
+* `name` - the name of your mod
+* `description` - a brief description of what your mod is about
+* `author` - the name of the author or authors
+* `uses_sdk` - `true` if your mod uses achievements, `false` if not
+* `discord` - An invite code for your Discord server (e.g. if your invite URL is `https://discord.gg/abc123`, specify `abc123`)
+* `website` - The link to your mod's website
+* `sayonika_id` - The ID of your mod on Sayonika (not currently used) 
+    
 ## Integrating into your build process
 
 If you want to use the DDLC Mod Template, download the [latest development build](https://github.com/Monika-After-Story/DDLCModTemplate/archive/master.zip).
