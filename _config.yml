@@ -1,5 +1,12 @@
 site_title: DDMM Help
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
 navigation:
   - name: Welcome
     links:
