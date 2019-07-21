@@ -12,7 +12,7 @@ navigation:
     links:
       - title: Home
         link: /
-  - name: User Guide
+  - name: User Guide (work in progress)
     links:
       - title: Download and Setup
         link: /user-guide/setup.html
