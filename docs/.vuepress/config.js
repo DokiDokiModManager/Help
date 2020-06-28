@@ -43,8 +43,8 @@ module.exports = {
                 link: '/user-guide/',
             },
             {
-                text: 'Developer Guide',
-                link: '/developer-guide/'
+                text: 'Changelog History',
+                link: '/changelog/'
             },
             {
                 text: 'DDMM Homepage',
@@ -60,7 +60,7 @@ module.exports = {
                 },
                 {
                     title: 'Getting Started',
-                    collapsable: true,
+                    collapsable: false,
                     children: [
                         'installation',
                         'first-time-setup',
@@ -70,10 +70,48 @@ module.exports = {
                 },
                 {
                     title: 'Advanced',
-                    collapsable: true,
+                    collapsable: false,
+                    children: []
+                },
+                {
+                    title: 'Developers',
+                    collapsable: false,
                     children: []
                 }
             ],
+            '/changelog/': [
+                '/changelog/',
+                // {
+                //     title: 'Changelog',
+                //     collapsable: false,
+                //     sidebarDepth: 0,
+                //     children: [
+                //         'v4_0_0'
+                //     ]
+                // },
+                {
+                    title: 'Legacy',
+                    collapsable: true,
+                    sidebarDepth: 0,
+                    children: [
+                        'v3_2_8',
+                        'v3_2_7',
+                        'v3_2_6',
+                        'v3_2_5',
+                        'v3_2_4',
+                        'v3_2_3',
+                        'v3_2_2',
+                        'v3_2_1',
+                        'v3_2_0',
+                        'v3_1_2',
+                        'v3_1_1',
+                        'v3_1_0',
+                        'v3_0_2',
+                        'v3_0_1',
+                        'v3_0_0'
+                    ]
+                }
+            ]
         }
     },
 
