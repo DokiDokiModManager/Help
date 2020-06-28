@@ -28,8 +28,7 @@ module.exports = {
      */
     themeConfig: {
         yuu: {
-            disableThemeIgnore: true,
-            defaultColorTheme: 'purple'
+            disableThemeIgnore: true
         },
         sidebarDepth: 3,
         repo: 'DokiDokiModManager/Help',
@@ -62,21 +61,27 @@ module.exports = {
                     title: 'Getting Started',
                     collapsable: false,
                     children: [
-                        'installation',
-                        'first-time-setup',
-                        'install-first-mod',
-                        'managing-mods'
+                        'getting-started/installation',
+                        'getting-started/first-time-setup',
+                        'getting-started/install-first-mod',
+                        'getting-started/managing-mods',
+                        'getting-started/basic-options'
                     ]
                 },
-                {
-                    title: 'Advanced',
-                    collapsable: false,
-                    children: []
-                },
+                // {
+                //     title: 'Advanced',
+                //     collapsable: false,
+                //     children: []
+                // },
                 {
                     title: 'Developers',
                     collapsable: false,
-                    children: []
+                    children: [
+                        'developers/metadata',
+                        'developers/sdk',
+                        'developers/debugging',
+                        'developers/developer-mode'
+                    ]
                 }
             ],
             '/changelog/': [

@@ -40,4 +40,4 @@ Download the AppImage, which should be called `ddmm-4.0.0.AppImage` or something
 
 Once you see this screen, you're ready to move on!
 
-![Doki Doki Mod Manager splash screen](./images/installation-splash.png)
+![Doki Doki Mod Manager splash screen](../images/installation-splash.png)

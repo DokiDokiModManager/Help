@@ -2,7 +2,7 @@
 
 Your next step is to download and install a copy of the Doki Doki Literature Club game. 
 
-If you've followed the tutorial up until now, you should be on the Doki Doki Mod Manager splash screen. Click the **Get Started** button.
+If you've followed the guide up until now, you should be on the Doki Doki Mod Manager splash screen. Click the **Get Started** button.
 
 ## Download and install DDLC
 
@@ -20,7 +20,7 @@ Click the **Download Now** button and follow the instructions. Pick the appropri
 
 Once the download has finished, click **Next**, then drag and drop the downloaded file into the box.
 
-![Game selection screen](./images/fts-zip-select.png)
+![Game selection screen](../images/fts-zip-select.png)
 
 If you've done everything correctly, click **Next** to continue.
 
