@@ -1,6 +1,6 @@
 # Installing your first mod
 
-Now you have a working installation of Doki Doki Mod Manager, your next step is to choose a mod to play. If you're new to DDLC modding, or aren't sure what you're trying to play yet, please read the whole page.
+Now you have a working installation of Doki Doki Mod Manager, your next step is to choose a mod to play. If you're new to DDLC modding, or aren't sure what you're trying to play yet, please read the whole article.
 
 ## Install DDLC without mods
 

@@ -64,7 +64,8 @@ module.exports = {
                     children: [
                         'installation',
                         'first-time-setup',
-                        'install-first-mod'
+                        'install-first-mod',
+                        'managing-mods'
                     ]
                 },
                 {
