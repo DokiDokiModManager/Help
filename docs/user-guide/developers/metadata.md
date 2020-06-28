@@ -36,6 +36,6 @@ Although it doesn't technically matter where in your mod's you place the file, i
 
 ## Mod background
 
-You can add a background to your mod's distribution that will replace the user's background when they select your mod.
+You can add a background to your mod's distribution, which will temporarily replace the user's background when they select your mod.
 
 Your image should be named `ddmm-bg.png` and be a PNG image with a resolution of at least 1280x720. The same rules about file location as the `ddmm-mod.json` file apply.
