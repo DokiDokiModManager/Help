@@ -30,6 +30,10 @@ module.exports = {
         yuu: {
             disableThemeIgnore: true
         },
+        algolia: {
+            apiKey: '06941605ec04a113fc8db765ddff9b87',
+            indexName: 'dokidokimodmanager'
+        },
         sidebarDepth: 3,
         repo: 'DokiDokiModManager/Help',
         editLinks: true,
