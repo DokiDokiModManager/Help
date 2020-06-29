@@ -72,11 +72,13 @@ module.exports = {
                         'getting-started/basic-options'
                     ]
                 },
-                // {
-                //     title: 'Advanced',
-                //     collapsable: false,
-                //     children: []
-                // },
+                {
+                    title: 'Reference',
+                    collapsable: false,
+                    children: [
+                        'reference/mod-packaging'
+                    ]
+                },
                 {
                     title: 'Developers',
                     collapsable: false,
