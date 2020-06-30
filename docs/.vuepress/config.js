@@ -76,6 +76,7 @@ module.exports = {
                     title: 'Reference',
                     collapsable: false,
                     children: [
+                        'reference/mod-install-troubleshooting',
                         'reference/mod-packaging'
                     ]
                 },
