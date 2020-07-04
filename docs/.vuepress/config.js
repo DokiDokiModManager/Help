@@ -93,14 +93,14 @@ module.exports = {
             ],
             '/changelog/': [
                 '/changelog/',
-                // {
-                //     title: 'Changelog',
-                //     collapsable: false,
-                //     sidebarDepth: 0,
-                //     children: [
-                //         'v4_0_0'
-                //     ]
-                // },
+                {
+                    title: 'Changelog',
+                    collapsable: true,
+                    sidebarDepth: 0,
+                    children: [
+                        'v4_0_0'
+                    ]
+                },
                 {
                     title: 'Legacy',
                     collapsable: true,
