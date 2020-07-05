@@ -98,6 +98,7 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 0,
                     children: [
+                        'v4_0_1',
                         'v4_0_0'
                     ]
                 },
