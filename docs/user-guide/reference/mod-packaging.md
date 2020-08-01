@@ -8,11 +8,13 @@ For almost all mods, the [DDLC Mod Template](https://github.com/Monika-After-Sto
 
 ## Other compatible formats
 
-**Mods that use these formats will _probably_ work, but aren't recommended.**
+::: warning
+Mods that use these formats will _probably_ work. However, for best results, use the DDLC Mod Template.
+:::
 
 ### Standalone .rpa files
 
-If your mod only changes the `scripts.rpa` file, you can distribute your mod as a `.rpa` file without the need to compress it. However, if your mod has more than one file, this will not work. This also prevents you from including [metadata or backgrounds](../developers/metadata.md) with your mod.
+If your mod only changes the `scripts.rpa` file, you can distribute your mod as a `.rpa` file without the need to compress it. However, if your mod has more than one file, this will not work. This also prevents you from including [metadata, backgrounds](../developers/metadata.md) or any other documentation with your mod.
 
 ### Other .zip file formats
 
@@ -24,12 +26,20 @@ Your mod can also be packaged in `.rar` and `.7z` formats, and Doki Doki Mod Man
 
 ## Incompatible formats
 
-**Mods that use these formats will definitely not work.**
+::: danger
+Mods that use these formats will **definitely** not work. They are included as examples only.
+:::
+
+### Poorly named game files in an archive
+
+Some mods only require the `scripts.rpa` file to be replaced. In this case, you should usually distribute your mod as **only** this file.
+
+If you must use a `.zip` file for some reason (for example, if you want to include a readme file), you **must** make sure your game files have the correct filenames. Your replaced `scripts.rpa` file **must** be called `scripts.rpa` or the original file will not be replaced.
 
 ### Nested archives
 
-If your mod, for example, is contained in a `.zip` file inside another `.zip` file, it will not install correctly. There is almost never any good reason to package your mod like this.
+If your mod, for example, is contained in a `.zip` file inside another `.zip` file, it will **not** install correctly. There is **never** any good reason to package your mod like this.
 
 ### "Inverse mods"
 
-Mods that require you to install DDLC's game files into the mod folder, rather than the other way round, are not supported. This usually only happens if your mod uses a different version of Ren'Py than DDLC, which is unnecessary for the vast majority of mods.
+Mods that require you to install DDLC's game files into the mod folder, rather than the other way round, are **not** supported. This usually only happens if your mod uses a different version of Ren'Py than DDLC, which is unnecessary for the vast majority of mods.
