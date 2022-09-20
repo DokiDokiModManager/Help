@@ -18,7 +18,7 @@ Download and run the installer, which should be called `ddmm-4.0.0.exe` or somet
 ### macOS
 
 ::: warning
-You may receive a message saying "Doki Doki Mod Manager can't be opened because it was not downloaded from the Mac App Store." [Follow the instructions here](https://www.wikihow.com/Install-Software-from-Unsigned-Developers-on-a-Mac) to continue.
+You may receive a message saying "Doki Doki Mod Manager can't be opened because it was not downloaded from the Mac App Store." [Follow the instructions here](support.apple.com/guide/mac-help/mh40616/mac) to continue.
 :::
 
 Download and open the file, which should be called `ddmm-4.0.0.dmg` or something similar. Next, drag the Doki Doki Mod Manager icon into your Applications folder, then run the application.
